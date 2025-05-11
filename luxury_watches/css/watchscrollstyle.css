@@ -1,0 +1,381 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.main-page2 {
+    width: 100%;
+    height: 110vh;
+    background-color: red;
+    /* background-color: #e6dede; */
+
+    display: flex;
+    flex-direction: column;
+
+}
+
+.header-main-page {
+    width: 100%;
+    height: 18%;
+
+    background-color: #e6dede;
+    /* background-color: peru; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    /* position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 999; */
+
+    border-bottom: 1px black solid;
+}
+
+.up-header-main-page {
+    width: 100%;
+    height: 78%;
+    /* background-color: green; */
+
+    display: flex;
+
+}
+
+.left-up-header-main-page {
+    width: 23%;
+    height: 100%;
+    /* background-color: purple; */
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.left-up-header-main-page img {
+    width: 250px;
+    height: 250px;
+
+}
+
+.mid-up-header-main-page {
+    width: 54%;
+    height: 100%;
+    /* background-color: red; */
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: relative;
+}
+
+.mid-up-header-main-page input {
+    width: 88%;
+    height: 50%;
+
+    padding-left: 40px;
+    outline: none;
+    border: none;
+
+    border-radius: 10px;
+
+
+}
+
+.search-icon {
+
+    font-size: x-large;
+    color: gray;
+    cursor: pointer;
+
+    position: absolute;
+    left: 50px;
+    top: 38%;
+
+}
+
+.right-up-header-main-page {
+    width: 23%;
+    height: 100%;
+    /* background-color: yellow; */
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.right-up-header-main-page i {
+    font-size: 3rem;
+    color: rgb(20, 20, 20);
+    cursor: pointer;
+
+
+}
+
+
+.down-header-main-page {
+    width: 80%;
+    height: 22%;
+    /* background-color: greenyellow; */
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.down-header-main-page h3 {
+    color: black;
+    cursor: pointer;
+
+}
+
+
+
+
+/* -------------------------------------------------------- */
+
+
+
+
+
+.rest-main-page {
+    width: 100%;
+    height: 82%;
+    background-color: #f4f4f9;
+   
+  
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: end;
+    position: relative;
+
+    /* margin-top: 23vh;  */
+}
+
+.same-brand-title {
+    width: 100%;
+    height: 18%;
+    background-color: purple;
+    display: flex;
+    /* align-items: center; */
+    flex-direction: column;
+}
+
+.same-brand-title h1 {
+    font-weight: bold;
+    font-weight: bold;
+    font-size: 3.1rem;
+  
+
+    margin-bottom: 10px;
+    /* margin-left: 26%; */
+    margin-left: 26px;
+    color: black;
+}
+.same-brand-raodmap {
+    height: 20%;
+    width: 15%;
+    background-color: #fff;
+    text-align: center;
+
+    display: flex;
+    justify-content: space-between;
+}
+.same-brand-raodmap i {
+    font-weight: bold;
+    font-weight: bold;
+    /* font-size: 3.1rem; */
+    display: inline-block;
+  
+
+    margin-bottom: 10px;
+    /* margin-left: 26%; */
+    margin-left: 26px;
+    color: black;
+}
+
+
+.same-brand-slide {
+    padding: 10px;
+    width: 98%;
+    height: 82%;
+    background-color: #f4f4f9;
+    /* background-color: blue; */
+    margin-top: 10px;
+
+
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    justify-content: flex-start;
+    gap: 10px;
+    /* Space between items */
+
+    overflow-x: hidden;
+    /* Hide overflow */
+    scroll-behavior: smooth;
+    /* Smooth scrolling */
+
+}
+
+.watch-discount-box {
+    flex: 0 0 290px;
+    /* Prevent growing and shrinking, fixed width */
+    height: 375px;
+    border-radius: 15px;
+    border: #ddd 1px solid;
+    padding: 10px 20px;
+
+    display: flex;
+    flex-direction: column;
+    background-color: #e6dede;
+    transition: 0.3s ease-in-out;
+    /* margin-left: 8px; */
+}
+
+.watch-discount-img-part {
+    width: 100%;
+    height: 80%;
+    /* background-color:blue; */
+    background-color: #e6dede;
+
+
+}
+
+.watch-discount-img-part img {
+    width: 100%;
+    height: 100%;
+
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
+
+.watch-discount-img-part img:hover {
+    transform: scale(1.1);
+}
+
+.watch-discount-rest {
+    width: 100%;
+    height: 20%;
+    /* background-color: brown; */
+
+    display: flex;
+    flex-direction: row;
+
+}
+
+.watch-discount-name {
+    height: 100%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    cursor: pointer;
+}
+
+.watch-discount-box:hover .watch-discount-name p {
+    color: #00aaff;
+}
+
+.watch-discount-price {
+    height: 100%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: end; */
+    align-items: end;
+
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+.Right-btn-same-brand {
+    position: absolute;
+    right: 20px;
+    top: 53%;
+
+    z-index: 999;
+
+    width: 40px;
+    height: 40px;
+
+    border-radius: 10px;
+    border: 1px rgb(160, 146, 146) solid;
+    cursor: pointer;
+    font-size: larger;
+
+    
+}
+
+.Left-btn-same-brand {
+    position: absolute;
+    left: 20px;
+    top: 53%;
+
+    z-index: 999;
+
+    width: 40px;
+    height: 40px;
+
+    border-radius: 10px;
+    border: 1px rgb(160, 146, 146) solid;
+    cursor: pointer;
+    font-size: larger;
+}
+.hide{
+    display: none;
+}
+/* ------------------------------------dark mode------------------- */
+
+
+.dark-mode {
+    background-color: #121212;
+    color: white;
+}
+
+
+.dark-mode .main-page2
+ {
+    background-color: #1b1b1b;
+    /* color: white; */
+}
+
+.dark-mode .header-main-page{
+    background-color: #1b1b1b;
+    color: white;
+    border-bottom: 1px white solid;
+
+}
+.dark-mode .same-brand-title  h1
+ {
+    color: white;
+}
+
+.dark-mode .watch-box,
+.dark-mode .watch-discount-box,
+.dark-mode .watch-discount-img-part
+ {
+    background-color: #333;
+    border: 1px #333 solid;
+}
+
+.dark-mode .logo-place-page2{
+    background-color: #756a6a;
+}
+
+.dark-mode .watch-name p,
+.dark-mode .right-magazin-desc a,
+.dark-mode .left-magazin-desc a {
+    color: white;
+}
+
+.dark-mode .right-up-header-main-page i {
+    color: white;
+}
